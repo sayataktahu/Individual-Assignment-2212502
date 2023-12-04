@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projectStyle.css">
+    <script src="scroll.js"></script>
+    <script src="mouseover.js"></script>
+    <title>RM1 CAMPAIGN</title>
+</head>
+<body>
+    <header>
+        <img src="iium.png"
+        height="100"
+        width="120"
+        alt="logo of IIUM Endowment Fund"/>
+        <h2>IIUM ENDOWMENT FUND</h2>
+        <img src="remarkiium.png"
+        height="100"
+        width="120"
+        alt="40 years remark of IIUM"/>
+    </header>
+
+    <section class="container1">
+
+        <div class="tagline-text">
+            <h2>RM1 CAMPAIGN</h2>
+            <div id="row1"><br>Let your contributions be</div>
+            <div id="row2"> PERPETUAL</div>   
+            <div id="row3">for the pleasure of Allah SWT</div>
+            <br><br><br>
+            <p>
+                "The example of those who spend their wealth in the     
+                <br><br>way of Allah is like a seed [of grain] which grows seven 
+                <br><br>spikes; in each spike is a hundred grains. And Allah
+                <br><br>multiplies [His reward] for whom He wills. And Allah is
+                <br><br>all-Encompassing and Knowing."
+                <br><br>Al Baqarah:261
+            </p>
+        </div>
+
+        <div>
+            <input type="submit" value="New Contributors"onclick="document.getElementById('register-form1').scrollIntoView();">
+            <br><br><br>
+            <input type="submit" value="Existing Contributors"onclick="document.getElementById('register-form2').scrollIntoView();">     
+        </div>
+    </section>
+
+    <section class="container2">
+        <div id="register-form1">
+            <h2>PARTICIPATION IN RM1 CAMPAIGN—MONTHLY SALARY DEDUCTION</h2>
+
+            <form name="register-form" id="register-form">
+            <div>
+                <label for="name">Name:<span aria-label="required"> *</span></label>
+                <input type="text" id="name" name="name" class="styled-textbox" placeholder="Nadhirah" title="Please enter a valid name" required>
+            </div>
+            <div>
+                <label for="staffNo">Staff No.:<span aria-label="required"> *</span></label>
+                <input type="text" id="staffNo" name="staffNo" class="styled-textbox" placeholder="2212502" required>
+            </div>
+            <div>
+                <label for="dept">K/C/D/I/O:<span aria-label="required"> *</span></label>
+                <input type="text" id="dept" name="dept" class="styled-textbox" placeholder="KICT" required>
+            </div>
+            <div>
+                <label for="contact">Contact No.:<span aria-label="required"> *</span></label>
+                <input type="text" id="contact" name="contact" class="styled-textbox" placeholder="01110936644" title="Please enter a valid number" required>
+            </div>
+            <div>
+                <label for="email">Email:<span aria-label="required"> *</span></label>
+                <input type="email" id="email" name="email" class="styled-textbox" placeholder="nm.najmuddin@gmail.com" required>
+            </div>
+            <div>
+                <label for="amount">Amount to be deducted:<span aria-label="required"> *</span></label>
+                <input type="text" id="amount" name="amount" class="styled-textbox" placeholder="RM" required>
+            </div>
+            <div>
+                <label for="amount">Start:<span aria-label="required"> *</span></label>
+                <input type="month" id="startmonthyear" name="startmonthyearr" class="styled-textbox" required>
+            </div>
+            <div>
+                <label for="amount">End:<span aria-label="required"> *</span></label>
+                <input type="month" id="endmonthyear" name="endmonthyear" class="styled-textbox" required>
+            </div>
+            <br><br>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
+        <div>
+            <img src="love.png" alt="Donation symbol" id="image" onmouseover="newPicture(this)" onmouseout="oldPicture(this);"/>
+        </div>
+    </section>
+    <section class="container3">
+        <div>
+            <img src="love.png" alt="Donation symbol" id="image" onmouseover="newPicture(this)" onmouseout="oldPicture(this);"/>
+        </div>
+        <div id="register-form2">
+            <h2>PARTICIPATION IN RM1 CAMPAIGN—MONTHLY SALARY DEDUCTION-KULLIYYAH BASED</h2>
+
+            <form name="register-form" id="register-form">
+            <div>
+                <label for="name">Name:<span aria-label="required"> *</span></label>
+                <input type="text" id="name" name="name" class="styled-textbox" placeholder="Nadhirah" title="Please enter a valid name" required/>
+            </div>
+            <div>
+                <label for="staffNo">Staff No.:<span aria-label="required"> *</span></label>
+                <input type="text" id="staffNo" name="staffNo" class="styled-textbox" placeholder="2212502" required/>
+            </div>
+            <div>
+                <label for="dept">K/C/D/I/O:<span aria-label="required"> *</span></label>
+                <input type="text" id="dept" name="dept" class="styled-textbox" placeholder="KICT" required/>
+            </div>
+            <div>
+                <label for="contact">Contact No.:<span aria-label="required"> *</span></label>
+                <input type="text" id="contact" name="contact" class="styled-textbox" placeholder="01110936644" required/>
+            </div>
+            <div>
+                <label for="email">Email:<span aria-label="required"> *</span></label>
+                <input type="email" id="email" name="email" class="styled-textbox" placeholder="nm.najmuddin@gmail.com" required/>
+            </div>
+            <div>
+                <label for="amount">Amount to be deducted:<span aria-label="required"> *</span></label>
+                <input type="text" id="amount" name="amount" class="styled-textbox" placeholder="RM" required/>
+            </div>
+            <div>
+                <label for="startmonthyear">Start:<span aria-label="required"> *</span></label>
+                <input type="month" id="startmonthyear" name="startmonthyearr" class="styled-textbox" required/>
+            </div>
+            <div>
+                <label for="endmonthyear">End:<span aria-label="required"> *</span></label>
+                <input type="month" id="endmonthyear" name="endmonthyear" class="styled-textbox" required/>
+            </div>
+            <div>
+                <label>For Kuliyyah of: <span aria-label="required"> *</span></label>
+                <select class="choice">
+                    <option value="KICT">Kulliyyah of Information and Communication Technology (KICT)</option>
+                    <option value="KOE">Kulliyyah of Engineering (KOE)</option>
+                    <option value="KAED">Kulliyyah of Architecture and Environmental Design (KAED)</option>
+                    <option value="KENMS">Kulliyyah of Economics and Management Sciences (KENMS)</option>
+                    <option value="AIKOL">Ahmad Ibrahim Kulliyyah of Laws (AIKOL)</option>
+                    <option value="KOED">Kulliyyah of Education (KOED)</option>
+                    <option value="KIRKHS">Kulliyyah of Islamic Revealed Knowledge and Human Sciences (KIRKHS)</option>
+                    <option value="CELPAD">Centre for Languages and Pre-University Academic Development (CELPAD)</option>
+                    <option value="INHART">International Institute of Halal Research and Training (INHART)</option>
+                    <option value="IIiBF">Institute of Islamic Banking and Finance (IIiBF)</option>
+                    <option value="ACADEMY">Academy of Graduate and Professional Studies (ACADEMY)</option>
+                </select>
+            </div> 
+            <br><br>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
+    </section>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><img src="arrow.svg" alt="Arrow Upward"></button>
+
+    <footer>
+        <div>
+            <p>IIUM ENDOWMENT FUND<br>
+                <br>Level 3, Rectory<br>
+                <br>International Islamic University Malaysia<br>
+                <br> P.O. Box 10<br>
+                <br>50728 Kuala Lumpur<br>
+            </p>
+        </div>
+        <div>
+            <p>
+                <img src="call.png" alt="calling icon"> 03 61964268
+                <br><br>
+                <img src="email.png" alt="mailing icon"> ief@iium.edu.my
+                <br><br>
+                <img src="website.png" alt="website icon"> www.iium.edu.my/ief
+                <br><br>
+                <img src="facebook.png" alt="facebook icon" width="24px" height="24px"> www.facebook.com/ief.official/
+            </p>    
+        </div>
+        
+    </footer>
+</body>
+</html>
